@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10131c">
+    <meta name="description" content="Замовте консультацію команди учнів-розробників 11-А класу Фізико-технічного ліцею.">
+    <title>Консультація — 11-А розробляє</title>
+    <link rel="icon" href="assets/emblema.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body class="consultation-page">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="11-А розробляє — на головну">
+        <img src="assets/emblema.png" alt="Емблема Фізико-технічного ліцею" width="48" height="48">
+        <span class="brand-copy"><strong>11-А</strong><span>розробляє</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="main-navigation" aria-label="Головна навігація">
+        <a href="index.html#services">Що створюємо</a>
+        <a href="index.html#team">Наша команда</a>
+        <a class="nav-cta" href="consultation.html" aria-current="page">Консультація <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main class="consultation-main page-shell">
+      <div class="consultation-intro">
+        <a class="back-link" href="index.html"><span aria-hidden="true">←</span> На головну</a>
+        <p class="eyebrow"><span class="status-dot"></span> Форма звернення <span class="eyebrow-mark">/ 03</span></p>
+        <h1>Поговорімо<br>про вашу <span>ідею.</span></h1>
+        <p class="hero-description">Кілька деталей допоможуть нам підготуватися до консультації та краще зрозуміти, чим можемо бути корисними.</p>
+        <div class="consultation-aside">
+          <span class="aside-icon" aria-hidden="true">&lt;/&gt;</span>
+          <p><strong>Людська розмова — перший крок.</strong><br>Опишіть ідею своїми словами. Не потрібно знати технічні терміни.</p>
+        </div>
+        <div class="contact-note"><span aria-hidden="true">i</span><p>Після надсилання відкриється ваша поштова програма з готовим листом. Адресу одержувача поки не вказано — додайте її перед надсиланням.</p></div>
+      </div>
+
+      <form class="consultation-form" id="consultation-form">
+        <div class="form-heading"><span>НОВИЙ ЗАПИТ</span><span class="form-live"><i></i> заповніть поля</span></div>
+        <label class="field-label" for="name">Як до вас звертатися? <span>*</span></label>
+        <input id="name" name="name" type="text" autocomplete="name" placeholder="Ваше ім’я" required>
+
+        <label class="field-label" for="contact">Як з вами зв’язатися? <span>*</span></label>
+        <input id="contact" name="contact" type="text" autocomplete="email" placeholder="Телефон або електронна пошта" required>
+
+        <label class="field-label" for="service">Що вас цікавить? <span>*</span></label>
+        <select id="service" name="service" required>
+          <option value="" disabled selected>Оберіть напрям</option>
+          <option value="Створення сайту">Створення сайту</option>
+          <option value="Програмний проєкт">Програмний проєкт</option>
+          <option value="Консультація щодо ідеї">Консультація щодо ідеї</option>
+          <option value="Інше">Інше</option>
+        </select>
+
+        <label class="field-label" for="date">Бажана дата зустрічі <span class="optional">необов’язково</span></label>
+        <input id="date" name="date" type="date">
+
+        <label class="field-label" for="details">Коротко про вашу ідею <span>*</span></label>
+        <textarea id="details" name="details" rows="4" placeholder="Яке завдання хочете вирішити?" required></textarea>
+
+        <button class="button button-primary form-submit" type="submit">Підготувати лист <span aria-hidden="true">↗</span></button>
+        <p class="form-privacy">Натискаючи кнопку, ви відкриваєте поштову програму на своєму пристрої. Дані не надсилаються через цей сайт.</p>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><img src="assets/emblema.png" alt="" width="38" height="38"><span class="brand-copy"><strong>11-А</strong><span>розробляє</span></span></a>
+      <p>Створено з цікавістю у Фізико-технічному ліцеї.</p>
+      <span class="footer-year">© <span data-year></span> · команда 11-А</span>
+    </footer>
+  </body>
+</html>

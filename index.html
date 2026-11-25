@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10131c">
+    <meta name="description" content="Учні 11-А Фізико-технічного ліцею створюють сайти та програмне забезпечення. Познайомтеся з командою і замовте консультацію.">
+    <title>11-А розробляє — команда ФТЛ</title>
+    <link rel="icon" href="assets/emblema.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="11-А розробляє — на головну">
+        <img src="assets/emblema.png" alt="Емблема Фізико-технічного ліцею" width="48" height="48">
+        <span class="brand-copy"><strong>11-А</strong><span>розробляє</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="main-navigation" aria-label="Головна навігація">
+        <a href="#services">Що створюємо</a>
+        <a href="#team">Наша команда</a>
+        <a class="nav-cta" href="consultation.html">Замовити консультацію <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Фізико-технічний ліцей · 11-А клас</p>
+          <h1 id="hero-title">Майбутнє<br>пишеться <span>кодом.</span></h1>
+          <p class="hero-description">Ми — команда юних розробників, яка перетворює цікаві ідеї на сайти й програмні рішення. Вчимося, експериментуємо та вже створюємо цифрове.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="consultation.html">Обговорити проєкт <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#team">Познайомитися з командою <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-proof"><span class="proof-line"></span><span>12 допитливих умів — одна команда</span></div>
+        </div>
+
+        <div class="hero-art" aria-label="Ілюстрація коду в редакторі програміста">
+          <div class="art-glow"></div>
+          <div class="code-window">
+            <div class="window-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>idea.ts</span><span class="window-lock" aria-hidden="true">⌑</span></div>
+            <div class="code-content" aria-hidden="true">
+              <span class="line-number">01</span><code><span class="code-violet">const</span> <span class="code-blue">team</span> = {</code>
+              <span class="line-number">02</span><code>&nbsp;&nbsp;curiosity: <span class="code-green">true</span>,</code>
+              <span class="line-number">03</span><code>&nbsp;&nbsp;ideas: <span class="code-orange">'без меж'</span>,</code>
+              <span class="line-number">04</span><code>&nbsp;&nbsp;future: <span class="code-orange">'у розробці'</span></code>
+              <span class="line-number">05</span><code>};</code>
+              <span class="line-number">06</span><code>&nbsp;</code>
+              <span class="line-number">07</span><code><span class="code-violet">export default</span> <span class="code-blue">team</span>;</code>
+            </div>
+            <div class="window-footer"><span><i class="footer-dot"></i> усе працює</span><span>UTF-8&nbsp; · &nbsp;TypeScript</span></div>
+          </div>
+          <div class="floating-tag tag-top"><span>✳</span> творимо разом</div>
+          <div class="floating-tag tag-bottom"><span class="tag-bracket">&lt;/&gt;</span> ідея → продукт</div>
+          <span class="art-spark spark-one" aria-hidden="true">✳</span>
+          <span class="art-spark spark-two" aria-hidden="true">·</span>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-rule"></span><span>03</span></div>
+      </section>
+
+      <section class="services section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">Наші можливості <span class="eyebrow-mark">/ 01</span></p>
+          <h2 id="services-title">Цифрові рішення<br>починаються з <span>розмови.</span></h2>
+          <p class="section-intro">Маєте задум, але не знаєте, з чого почати? Ми допоможемо розібратися і знайти напрям.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon icon-code" aria-hidden="true">&lt;/&gt;</span>
+            <p class="card-label">01 — ВЕБ</p>
+            <h3>Сайти та вебсторінки</h3>
+            <p>Продумуємо структуру й допомагаємо створити сучасний сайт для вашої ідеї.</p>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-card">
+            <span class="service-icon icon-terminal" aria-hidden="true">&gt;_</span>
+            <p class="card-label">02 — КОД</p>
+            <h3>Програмні проєкти</h3>
+            <p>Обговорюємо задачу, обираємо інструменти та разом шукаємо шлях до рішення.</p>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </article>
+          <article class="service-card">
+            <span class="service-icon icon-spark" aria-hidden="true">✳</span>
+            <p class="card-label">03 — СТАРТ</p>
+            <h3>Консультації та ідеї</h3>
+            <p>Ділимося знаннями, підказуємо перші кроки й допомагаємо сформувати план.</p>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+        <a class="inline-cta" href="consultation.html">Розкажіть нам про свою ідею <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="team section-shell" id="team" aria-labelledby="team-title">
+        <div class="team-heading">
+          <div>
+            <p class="eyebrow">Знайомтеся — це ми <span class="eyebrow-mark">/ 02</span></p>
+            <h2 id="team-title">Люди за <span>кодом.</span></h2>
+          </div>
+          <p>Дванадцять різних характерів, спільна цікавість до технологій і бажання створювати.</p>
+        </div>
+        <ul class="team-grid">
+          <li class="person-card"><span class="person-number">01</span><span class="person-avatar">АЛ</span><span class="person-name">Анастасія Литвинова</span><span class="person-role">учениця 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">02</span><span class="person-avatar avatar-coral">АП</span><span class="person-name">Анна Петрова</span><span class="person-role">учениця 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">03</span><span class="person-avatar avatar-purple">АЛ</span><span class="person-name">Артем Литвин</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">04</span><span class="person-avatar avatar-blue">ВШ</span><span class="person-name">Віталій Шовкун</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">05</span><span class="person-avatar avatar-coral">ЄК</span><span class="person-name">Єлизавета Куріпко</span><span class="person-role">учениця 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">06</span><span class="person-avatar avatar-purple">МД</span><span class="person-name">Максим Давідок</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">07</span><span class="person-avatar avatar-blue">МК</span><span class="person-name">Максим Козанчин</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">08</span><span class="person-avatar">МГ</span><span class="person-name">Михайло Гончарук</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">09</span><span class="person-avatar avatar-coral">МС</span><span class="person-name">Михайло Сікорський</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">10</span><span class="person-avatar avatar-purple">ОК</span><span class="person-name">Олександра Коханчик</span><span class="person-role">учениця 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">11</span><span class="person-avatar avatar-blue">ОЩ</span><span class="person-name">Ольга Щирба</span><span class="person-role">учениця 11-А · ФТЛ</span></li>
+          <li class="person-card"><span class="person-number">12</span><span class="person-avatar avatar-coral">ТС</span><span class="person-name">Тимур Сунденко</span><span class="person-role">учень 11-А · ФТЛ</span></li>
+        </ul>
+      </section>
+
+      <section class="closing-cta section-shell" aria-labelledby="closing-title">
+        <div class="cta-code" aria-hidden="true"><span>let</span> nextStep = <b>yourIdea</b>;</div>
+        <div><p class="eyebrow">Почнемо з простого</p><h2 id="closing-title">Що задумали <span>ви?</span></h2><p>Заповніть форму — і ми підготуємося до розмови про ваш проєкт.</p></div>
+        <a class="button button-light" href="consultation.html">Замовити консультацію <span aria-hidden="true">↗</span></a>
+        <span class="cta-orbit orbit-one" aria-hidden="true"></span><span class="cta-orbit orbit-two" aria-hidden="true"></span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><img src="assets/emblema.png" alt="" width="38" height="38"><span class="brand-copy"><strong>11-А</strong><span>розробляє</span></span></a>
+      <p>Створено з цікавістю у Фізико-технічному ліцеї.</p>
+      <span class="footer-year">© <span data-year></span> · команда 11-А</span>
+    </footer>
+  </body>
+</html>
